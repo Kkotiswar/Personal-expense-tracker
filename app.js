@@ -40,48 +40,6 @@ function addTransaction(type, amount, description, date) {
   updateBalance();
 }
 
-// Utilizing GitHub Copilot's code suggestion for adding a transaction
-function addTransaction(date, category, description, amount) {
-  // Code written with the assistance of GitHub Copilot
-  const transaction = {
-    date,
-    category,
-    description,
-    amount
-  };
-
-  // Rest of the code to handle adding the transaction to the data storage
-  // ...
-}
-
-// Utilizing a code snippet suggested by GitHub Copilot for calculating the balance
-function calculateBalance(transactions) {
-  // Code snippet provided by GitHub Copilot
-  const balance = transactions.reduce((acc, transaction) => acc + transaction.amount, 0);
-
-  // Rest of the code to handle displaying the balance
-  // ...
-}
-
-// GitHub Copilot suggesting a best practice for error handling
-try {
-  // Code block where an error might occur
-  // ...
-} catch (error) {
-  // GitHub Copilot suggesting an appropriate error message
-  console.error('An error occurred:', error);
-}
-
-// Utilizing GitHub Copilot's code suggestion for handling user input
-function handleUserInput(event) {
-  // Code suggestion from GitHub Copilot to extract input value
-  const inputValue = event.target.value;
-
-  // Rest of the code to handle the user input
-  // ...
-}
-
-
 
 
 function editTransaction(type, amount, description, date, index) {
