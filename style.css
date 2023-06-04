@@ -1,0 +1,154 @@
+/* Your CSS code for styling the user interface goes here */
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #bbaeae;
+  border-radius: 5px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="number"],
+form input[type="text"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#balance {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+
+  /* Make the transaction list full-width */
+  #transaction-list {
+    width: 100%;
+  }
+
+  /* Center the form on smaller screens */
+  #transaction-form {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+
+/* Updated CSS Styles */
+
+/* Colors */
+:root {
+  --primary-color: #007bff; /* Blue */
+  --success-color: #28a745; /* Green */
+  --danger-color: #dc3545; /* Red */
+}
+
+/* Transaction List */
+#transaction-list {
+  /* Add background color */
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.transaction-item {
+  /* Add animation */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Form */
+#transaction-form {
+  /* Add background color */
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.button {
+  /* Add primary color */
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-success {
+  /* Add success color */
+  background-color: var(--success-color);
+}
+
+.button-danger {
+  /* Add danger color */
+  background-color: var(--danger-color);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
